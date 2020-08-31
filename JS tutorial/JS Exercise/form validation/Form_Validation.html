@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Welcome to Dragon Travel</title>
+</head>
+
+<body>
+
+    <div id="success" class="alert alert-success alert-dismissible fade" role="alert">
+        <strong>Success!</strong> Your Travel request has been successfully Submited
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div id="failure" class="alert alert-danger alert-dismissible fade" role="alert">
+        <strong>Error!</strong> Your Travel request has not been sent due to errors Submitted
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="container my-3">
+        <h1>Dragon Travel Dask</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">User Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Your User Name" required>
+                <small id="namevaild" class="invalid-feedback">
+                    Your Username must be 5-15 (a-z, A-Z, 0-9) characters long and should not start with a number
+                </small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="email" placeholder="Enter Your Email" required>
+                    <small id="emailvaild" class="invalid-feedback">
+                        Your email must be a valid email 
+                    </small>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Select Your Car</label>
+                <select class="form-control" id="exampleFormControlSelect1" required>
+                    <option>Mercedes</option>
+                    <option>BWM</option>
+                    <option>TATA Motars</option>
+                    <option>Audi A5S</option>
+                    <option>Lamborghini</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address">Enter Your Address</label>
+                <textarea class="form-control" id="address" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="phoneno">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter Your Number" required>
+                <small id="phonevalid" class="invalid-feedback">
+                    Your phone no must be 10 digits long
+                </small>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Any Other Message...</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button id="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="Form_Validation.js"></script>
+</body>
+
+</html>

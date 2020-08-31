@@ -1,0 +1,266 @@
+{
+"status": "ok",
+"totalResults": 38,
+"articles": [
+{
+"source": {
+"id": null,
+"name": "BBC News"
+},
+"author": "https://www.facebook.com/bbcnews",
+"title": "Oral sex linked to vaginal condition bacterial vaginosis - BBC News",
+"description": "Researchers explored what effect mouth bacteria have on microbes that live and grow in the vagina.",
+"url": "https://www.bbc.com/news/health-53901800",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/886B/production/_108732943_gettyimages-874067096.jpg",
+"publishedAt": "2020-08-26T01:53:55Z",
+"content": "Image copyrightGetty ImagesImage caption\r\n BV bacteria covering cells\r\nOral sex may create an environment for a common vaginal condition called bacterial vaginosis or BV, according to research in the… [+2569 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "MarketWatch"
+},
+"author": "Jeremy C. Owens, Levi Sumagaysay",
+"title": "Palantir takes swings at Silicon Valley on its way to Wall Street - MarketWatch",
+"description": "Secretive surveillance software company ‘s CEO says ‘we seem to share fewer and fewer of the technology sector’s values and commitments’ while defending work for government",
+"url": "https://www.marketwatch.com/story/palantir-takes-swings-at-silicon-valley-on-its-way-to-wall-street-2020-08-25",
+"urlToImage": "https://s.marketwatch.com/public/resources/images/MW-IN199_Palant_ZG_20200825182222.jpg",
+"publishedAt": "2020-08-26T01:23:00Z",
+"content": "Palantir Technologies Inc., a software company founded in Silicon Valley to help governments and companies collect and parse data, used its Tuesday filing for a direct listing to confirm a move away … [+5956 chars]"
+},
+{
+"source": {
+"id": "fox-news",
+"name": "Fox News"
+},
+"author": "Associated Press",
+"title": "Kareem Abdul-Jabbar's son charged with stabbing neighbor - Fox News",
+"description": "The son of basketball legend Kareem Abdul-Jabbar was charged Tuesday in California with stabbing a neighbor with a hunting knife during an argument over trash cans.",
+"url": "https://www.foxnews.com/sports/kareem-abdul-jabbars-son-charged-with-stabbing-neighbor",
+"urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/08/Adam-Abdul-Jabbar-Getty.jpg",
+"publishedAt": "2020-08-26T01:00:59Z",
+"content": "The son of basketball legend Kareem Abdul-Jabbar was charged Tuesday in California with stabbing a neighbor with a hunting knife during an argument over trash cans.\r\nAdam Abdul-Jabbar, 28, of San Cle… [+1445 chars]"
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "Jacqueline Howard and Carma Hassan, CNN",
+"title": "Covid-19 superspreading event in Boston may have led to 20,000 cases, researcher says - CNN",
+"description": "One superspreading event may be connected to about 20,000 Covid-19 cases in the Boston area, a researcher said on Tuesday.",
+"url": "https://www.cnn.com/2020/08/25/health/covid-19-superspreading-boston-study/index.html",
+"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200201150944-boston-skyline-file-super-tease.jpg",
+"publishedAt": "2020-08-26T00:24:00Z",
+"content": "(CNN)One superspreading event may be connected to about 20,000 Covid-19 cases in the Boston area, a researcher said on Tuesday.\r\nThat event, a biotech conference attended by 200 people in late Februa… [+5374 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Daily Beast"
+},
+"author": "Will Sommer",
+"title": "RNC Speaker Cancelled After Boosting QAnon Conspiracy Theory About Jewish Plot to Enslave the World - The Daily Beast",
+"description": "Mary Ann Mendoza, an “angel mom,” was set to speak on Tuesday night. But then she took to Twitter to encourage followers to read a thread about the Rothschilds.",
+"url": "https://www.thedailybeast.com/rnc-speaker-boosts-qanon-conspiracy-theory-about-jewish-plot-to-enslave-the-world-1",
+"urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_675,w_1200,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1598393852/200825-sommer-mendoza-tease_gyp3qc",
+"publishedAt": "2020-08-26T00:23:00Z",
+"content": "One of the speakers for the second night of the Republican National Convention was pulled from the program after The Daily Beast surfaced a tweet from her, earlier in the day, urging her followers to… [+4851 chars]"
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "Maeve Reston and Stephen Collinson, CNN",
+"title": "Melania Trump to address Republican convention as GOP makes appeals to female voters - CNN",
+"description": "Melania Trump is hoping to use her enormous popularity on Tuesday at the Republican National Convention to help address one of the biggest challenges facing President Donald Trump in November -- his enormous deficit with female voters.",
+"url": "https://www.cnn.com/2020/08/25/politics/gop-convention-night-2/index.html",
+"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200825100531-primera-melania-super-tease.jpg",
+"publishedAt": "2020-08-26T00:22:00Z",
+"content": null
+},
+{
+"source": {
+"id": "the-wall-street-journal",
+"name": "The Wall Street Journal"
+},
+"author": "Brent Kendall, Jared S. Hopkins",
+"title": "Teva Pharmaceutical’s U.S. Unit Indicted on Price-Fixing Charges - The Wall Street Journal",
+"description": "Justice Department alleges generic drugmaker participated in three different conspiracies",
+"url": "https://www.wsj.com/articles/teva-pharmaceuticals-u-s-unit-indicted-on-price-fixing-charges-11598392891",
+"urlToImage": "https://images.wsj.net/im-224823/social",
+"publishedAt": "2020-08-26T00:13:00Z",
+"content": "WASHINGTONThe U.S. business of Teva Pharmaceutical Industries Ltd. was indicted Tuesday on charges the generic drugmaker fixed prices on cholesterol medication and other drugs.The Justice Departments… [+5388 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CNBC"
+},
+"author": "Tyler Clifford",
+"title": "Cramer reacts to Dow Jones additions of Salesforce, Amgen and Honeywell: 'The job's almost done' - CNBC",
+"description": "\"This rebalancing came about because of a need for more technology in this index,\" the \"Mad Money\" host said.",
+"url": "https://www.cnbc.com/2020/08/25/cramer-reacts-to-new-additions-to-dow-jones.html",
+"urlToImage": "https://image.cnbcfm.com/api/v1/image/101879382-RTX14J0R.jpg?v=1598389870",
+"publishedAt": "2020-08-26T00:05:00Z",
+"content": "The due changes to the Dow Jones Industrial Average will make the index more in tune with the new economy, CNBC's Jim Cramer said Tuesday.\r\nThe 30-stock index, which is managed by S&amp;P Dow Jones I… [+3500 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "ESPN"
+},
+"author": "Ben Baby",
+"title": "With father reported missing in Florida, cornerback Mackensie Alexander leaves Bengals' training camp, source says - ESPN",
+"description": "With authorities in Florida searching for his father, Cincinnati cornerback Mackensie Alexander left the Bengals' training camp site on Tuesday, a source told ESPN.",
+"url": "https://www.espn.com/nfl/story/_/id/29740715/with-father-reported-missing-florida-cornerback-mackensie-alexander-leaves-bengals-training-camp-source-says",
+"urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0506%2Fr695963_1296x729_16%2D9.jpg",
+"publishedAt": "2020-08-25T23:53:39Z",
+"content": "CINCINNATI -- Cincinnati Bengals cornerback Mackensie Alexander has left the team training camp as his father has been reported missing in Florida, a source confirmed to ESPN on Tuesday.\r\nAuthorities… [+995 chars]"
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "Priscilla Alvarez and Geneva Sands, CNN",
+"title": "Top ICE lawyer to lead immigration agency - CNN",
+"description": "The top lawyer at Immigration and Customs Enforcement will succeed Matt Albence to lead the agency, ICE announced Tuesday.",
+"url": "https://www.cnn.com/2020/08/25/politics/tony-pham-new-ice-director/index.html",
+"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200825194516-tony-pham-ice-headshot-super-tease.jpg",
+"publishedAt": "2020-08-25T23:51:00Z",
+"content": null
+},
+{
+"source": {
+"id": null,
+"name": "Express"
+},
+"author": "Dylan Donnelly",
+"title": "Prince Harry savaged for 'failing' to protect 'emotional' Meghan Markle during royal life - Express",
+"description": "PRINCE HARRY has been criticised for 'failing' to prepare wife Meghan Markle for life as a royal.",
+"url": "https://www.express.co.uk/news/royal/1327426/meghan-markle-news-prince-harry-royal-family-wedding-finding-freedom-latest",
+"urlToImage": "https://cdn.images.express.co.uk/img/dynamic/106/750x445/1327426.jpg",
+"publishedAt": "2020-08-25T23:48:00Z",
+"content": null
+},
+{
+"source": {
+"id": "fox-news",
+"name": "Fox News"
+},
+"author": "Yael Halon",
+"title": "Ben Shapiro slams NY Times coverage of Wisconsin riots: 'Fires don't break out on their own' - Fox News",
+"description": "Conservative commentator Ben Shapiro mocked The New York Times Tuesday over their coverage of the unrest in Wisconsin, including one article describing \"peaceful marches\" that \"gave way to fires and destruction.\"",
+"url": "https://www.foxnews.com/media/ben-shapiro-ny-times-wisconsin-riots-fires",
+"urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/08/NYT-Shapiro_Istock-Getty.jpg",
+"publishedAt": "2020-08-25T23:06:29Z",
+"content": "Conservative commentator Ben Shapiro mocked The New York Times Tuesday over their coverage of the unrest in Wisconsin, including one article describing \"peaceful marches\" that \"gave way to fires and … [+2255 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "The Blast"
+},
+"author": "Mike Walters",
+"title": "Britney Spears' Sister, Jamie Lynn, Secretly Named Trustee Of Singer's Massive Fortune - The Blast",
+"description": "Read The Details...",
+"url": "https://theblast.com/c/britney-spears-sister-jamie-lynn-named-trustee-of-trust-fortune-money-conservatorship-freebritney",
+"urlToImage": "https://img.srgcdn.com/e//WWhEUmQ2enY5WXBjdGxDYnlqT3AuanBn.jpg",
+"publishedAt": "2020-08-25T22:42:07Z",
+"content": "We broke the story, Britney and Jamie's mother Lynne Spears filed documents to be included in future hearings involving this same trust.\r\nAs we reported, Britney's lawyer has filed documents claiming… [+680 chars]"
+},
+{
+"source": {
+"id": "ars-technica",
+"name": "Ars Technica"
+},
+"author": "Ron Amadeo",
+"title": "Galaxy Note 20 Ultra teardowns show two different cooling solutions - Ars Technica",
+"description": "iFixit rips apart Samsung's latest flagship.",
+"url": "https://arstechnica.com/gadgets/2020/08/galaxy-note-20-ultra-teardowns-show-two-different-cooling-solutions/",
+"urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2020/08/5-1-760x380.jpg",
+"publishedAt": "2020-08-25T22:05:00Z",
+"content": "11 with 10 posters participating\r\n<ul><li>\r\n The Note 20 Ultra has some really big cameras. \r\n</li><li>\r\n This X-Ray shot shows how much space the S-Pen takes up (it's at the bottom). \r\n</li><li>\r\n</… [+2962 chars]"
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "Jackie Wattles, CNN Business",
+"title": "NASA: Jeanette Epps could become first Black woman to join ISS crew - CNN",
+"description": "Two years ago, NASA astronaut Jeanette Epps was slated to fly into orbit aboard a Russian spacecraft and become the first Black astronaut to serve as a crew member of the International Space Station.",
+"url": "https://www.cnn.com/2020/08/25/tech/nasa-jeanette-epps-starliner-scn/index.html",
+"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190620175244-nasa-jeanette-epps-file-super-tease.jpg",
+"publishedAt": "2020-08-25T22:03:00Z",
+"content": "New York (CNN Business)Two years ago, NASA astronaut Jeanette Epps was slated to fly into orbit aboard a Russian spacecraft and become the first Black astronaut to serve as a crew member of the Inter… [+4240 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "NPR"
+},
+"author": "",
+"title": "Controversy Leads To Cancellation At The Whitney Museum Of American Art - NPR",
+"description": "One of the country's leading museums of American art, the Whitney in New York City, has canceled an upcoming show on responses to systemic racism amid a storm of online protest.",
+"url": "https://www.npr.org/2020/08/25/905955460/after-protest-whitney-museum-cancels-show-by-artists-it-meant-to-celebrate",
+"urlToImage": "https://media.npr.org/assets/img/2020/08/25/gettyimages-618469294_wide-ae73330579d917fc54b1f1fafdbb14eae9cebfc5.jpg?s=1400",
+"publishedAt": "2020-08-25T21:26:18Z",
+"content": "An exterior view of the Whitney Museum of American Art last October in New York City.\r\nJason Kempin/Getty Images for Audi\r\nAnother hot summer, another heated controversy at the Whitney Museum of Amer… [+4641 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Forbes"
+},
+"author": "Matt Perez",
+"title": "In Another International Defeat, The U.S. Is Soundly Rejected By The U.N. Security Council Over Its Push To Restore Sanctions On Iran - Forbes",
+"description": "The U.N. Security Council said Tuesday that all 15 member countries except the Dominican Republic considered the action illegal due to Trump's withdrawal from the agreement.",
+"url": "https://www.forbes.com/sites/mattperez/2020/08/25/in-another-international-defeat-the-us-is-soundly-rejected-by-the-un-security-council-over-its-push-to-restore-sanctions-on-iran/",
+"urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f457af3730f336bd172274b%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D4500%26cropY1%3D234%26cropY2%3D2766",
+"publishedAt": "2020-08-25T21:08:00Z",
+"content": "In another international defeat, the the U.N. Security Council has denied a U.S. request to restore sanctions on Iran that were lifted by a multilateral nuclear deal struck in 2015, with nearly all t… [+2269 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "SpaceNews"
+},
+"author": "Sandra Erwin",
+"title": "45th Space Wing to attempt three launches in three days, on pace for 39 in 2020 - SpaceNews",
+"description": "Brig. Gen. Doug Schiess: Three launches in a week has not been done in Florida since 2001",
+"url": "https://spacenews.com/45th-space-wing-to-attempt-three-launches-in-three-days-on-pace-for-39-in-2020/",
+"urlToImage": "https://spacenews.com/wp-content/uploads/2020/08/50242057682_968d536010_k.jpg",
+"publishedAt": "2020-08-25T21:00:29Z",
+"content": "Brig. Gen. Doug Schiess: Three launches in a week has not been done in Florida since 2001\r\nWASHINGTON For the first time since 2001, Cape Canaveral will attempt to launch three rockets over three day… [+2730 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "NPR"
+},
+"author": "",
+"title": "Facing The Biggest Challenge Ever To His Power, Lukashenko Looks To Russia For Help - NPR",
+"description": "Earlier this year, Alexander Lukashenko had tried to offset Kremlin pressure by pursuing rapprochement with Western nations. Now he is directing attacks toward the West and has turned to Russia again.",
+"url": "https://www.npr.org/2020/08/25/905808711/facing-the-biggest-challenge-ever-to-his-power-lukashenko-looks-to-russia-for-he",
+"urlToImage": "https://media.npr.org/assets/img/2020/08/25/ap_20182533172186_wide-272de6a1ed838be0590cb386eb01f4245a2ce521.jpg?s=1400",
+"publishedAt": "2020-08-25T20:58:00Z",
+"content": "Russian President Vladimir Putin and Belarusian President Alexander Lukashenko greet a group of World War II veterans in the Russian village of Khoroshevo on June 30.\r\nMikhail Klimentyev/Sputnik, Kre… [+6998 chars]"
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "David Close and John Sinnott",
+"title": "Lionel Messi wants to leave Barcelona - CNN International",
+"description": "Lionel Messi wants to leave Barcelona",
+"url": "https://edition.cnn.com/2020/08/25/football/lionel-messi-barcelona-spt-intl/index.html",
+"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200825155834-lionel-messi-0307-file-super-tease.jpg",
+"publishedAt": "2020-08-25T20:48:45Z",
+"content": "(CNN)Argentine football star Lionel Messi has sent a letter to Barcelona informing the club that he wants to leave the team, a source close to the footballer confirmed to CNN. \r\nFollowing the Catalan… [+1823 chars]"
+}
+]
+}

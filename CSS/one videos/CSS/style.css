@@ -1,0 +1,179 @@
+/* li,div{
+    color: aqua;
+} */
+
+/* .class{
+    color: coral;
+    color: rgba(41, 13, 107, 0.74);
+    color: #ff0000;
+    color: hsl(99, 69%, 59%) 
+} */
+
+body{
+    /* background-color: aqua; */
+    /* background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: right top; */
+    background-attachment: fixed;
+
+    /* background property one line */
+    /* background: #e7e7da url('../img/bg.jpg') no-repeat right top; */
+    background: #f1f1ea  no-repeat right top;
+
+}
+
+
+.class{
+    /* you can change different style*/
+    /* border-style: solid; 
+    border-top-style: dashed ;
+    border-width: 2px;
+    border-color: red; */
+
+    /* border short hand property */
+    border: 5px solid green;
+    border-radius: 15px;
+
+
+    /* margin and padding */
+
+    /* element outside place is called margin */
+    /* margin: 10px; */
+    /* element inside place is called padding */
+    padding: 20px;
+
+    /* margin short hand property */
+        /* top right bottom left */
+    /* margin: 23px 67px 56px 0; */
+    /* margin auto always horizontal auto not vertical */
+    /* margin collapse : using two div*/
+    margin: 50px;
+    width: 50%;
+    height: 100px;
+    outline: 4px solid black;
+    color: blue;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 16px; /*1em = 16px*/
+
+    /* fontsize reposive */
+    /* font-size: 1.4vw; */
+}
+.class a{
+    /* text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 3px; */
+    /* word-spacing */
+    /* text-shadow */
+    /* direction: ; */
+}
+
+.nav{
+
+    background: #131312;
+    position: sticky;
+}
+
+.items{
+
+    background: #131212;
+    margin: 0;
+    height: 24px;
+    list-style-type: none;
+   padding: 24px 0;
+   width: 50%;
+   margin-left:auto;
+
+}
+
+.item{
+
+    /* background: #eb09ba; */
+    display: inline;
+
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: white;
+    margin: 0 16px;
+    font-size: 1.5vw;
+
+}
+
+a:hover{
+    background-color: rgb(68, 65, 65);
+    color: rgb(236, 232, 225);
+    font-size: 1.5em;
+
+}
+
+a:active{
+    font-size: 2.5em;
+}
+
+/* .class2{
+    
+    visibility: hidden;
+    display: none;
+
+} */
+
+/* #box{
+    border: 2px solid black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+} */
+
+
+/* grid */
+.container{
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    border: 3px solid red;
+    box-sizing: border-box;
+}
+
+.first{
+
+    background: red;
+    height: 45px;
+    width: 30%;
+    display: inline-block;
+    float: right;
+
+}
+
+.second{
+
+    background: blue;
+    display: inline-block;
+    height: 45px;
+    width: 30%;
+}
+
+
+/* CSS flexbox */
+.myflex{
+
+    background: chartreuse;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+.myflex > div{
+    background:red;
+    width: 80px;
+    height:80px;
+    font-size: 25px;
+    margin:8px;
+}

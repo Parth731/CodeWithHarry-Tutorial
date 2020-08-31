@@ -1,0 +1,7 @@
+{
+    "title" : "vegitarian",
+    "vegetable"  : ["potato","tomato","chilee"],
+    "fruits"  : ["Mango","cherry","Banana"]
+}
+
+

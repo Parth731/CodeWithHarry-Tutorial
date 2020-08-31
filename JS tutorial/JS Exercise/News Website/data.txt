@@ -1,0 +1,136 @@
+{
+"status": "ok",
+"totalResults": 10,
+"articles": [
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "'Butcher of Bosnia' appeals genocide conviction",
+"description": "Ratko Mladic led forces during the 1990s Bosnian war and was jailed for life in 2017.",
+"url": "http://www.bbc.co.uk/news/world-europe-53901737",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9A9B/production/_114097593_mladic.jpg",
+"publishedAt": "2020-08-25T09:01:01Z",
+"content": "Image copyrightReutersImage caption\r\n Ratko Mladic, 78, was jailed for life in November 2017\r\nEx-Bosnian Serb commander Ratko Mladic is appealing against his conviction for genocide and crimes agains… [+2481 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Coronavirus: Argentina sees record Covid-19 cases and deaths",
+"description": "Argentina records nearly 9,000 new cases and 381 deaths as Latin America struggles to contain the virus.",
+"url": "http://www.bbc.co.uk/news/live/world-53802218",
+"urlToImage": "https://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/4.1.3/bbc_news_logo.png",
+"publishedAt": "2020-08-25T06:52:30.862053Z",
+"content": "Intensive care units in Buenos Aires are being kept busy with severe casesImage caption: Intensive care units in Buenos Aires are being kept busy with severe cases\r\nMore now from Argentina where heal… [+861 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Africa to be declared free of wild polio",
+"description": "Rumours and misinformation about the vaccine slowed down immunisation efforts.",
+"url": "http://www.bbc.co.uk/news/world-africa-53887947",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9048/production/_90763963_gettyimages-72537955.jpg",
+"publishedAt": "2020-08-25T06:30:49Z",
+"content": "Image copyrightAFPImage caption\r\n Polio can only be prevented through immunisation\r\nAfrica is to be declared free from wild polio by the independent body, the Africa Regional Certification Commission… [+5951 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Bali closed to foreign tourists until end of 2020",
+"description": "The Indonesian island scraps plans to open up to foreigners next month, over virus concerns.",
+"url": "http://www.bbc.co.uk/news/world-asia-53900565",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/CDB3/production/_114095625_gettyimages-1228051188.jpg",
+"publishedAt": "2020-08-25T05:29:36Z",
+"content": "Image copyrightGetty Images\r\nThe Indonesian island of Bali will not open to foreign tourists again this year, due to coronavirus concerns.\r\nAuthorities of the popular holiday destination had earlier … [+2654 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "What really went on in St Louis that day?",
+"description": "A US couple gained instant notoriety for waving guns at protesters. What really happened that day?",
+"url": "http://www.bbc.co.uk/news/election-us-2020-53891184",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11420/production/_114088607_4134eab6-8c47-491b-9969-589fd046adb4.jpg",
+"publishedAt": "2020-08-25T02:33:33Z",
+"content": "Image copyrightAlamy\r\nMark and Patricia McCloskey gained instant notoriety after video of them waving and pointing guns at Black Lives Matter demonstrators from the front yard of their St Louis mansi… [+13027 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Trump warns party conference of 'rigged' election",
+"description": "The Republican president tells his party members that the forthcoming election could be stolen.",
+"url": "http://www.bbc.co.uk/news/election-us-2020-53898142",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17925/production/_114094569_gettyimages-1228187639.jpg",
+"publishedAt": "2020-08-25T00:27:21Z",
+"content": "Image copyrightGetty Images\r\nUS President Donald Trump has warned his fellow Republicans their opponents may \"steal\" November's election, as his party anointed him as their candidate.\r\n\"They're using… [+1143 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "US Gulf Coast braced for storms Marco and Laura",
+"description": "The storms have already ripped through the Caribbean, destroying homes and killing at least 12.",
+"url": "http://www.bbc.co.uk/news/world-us-canada-53897723",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/91DB/production/_114093373_063025844-1.jpg",
+"publishedAt": "2020-08-24T23:15:00Z",
+"content": "Image copyrightEPAImage caption\r\n Louisiana residents are preparing for the arrival of two big storms\r\nTwo tropical storms are bearing down on the US Gulf Coast, with one weakening but the other expe… [+3520 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Evangelical college head quits amid sex scandal",
+"description": "The vocal supporter of President Donald Trump resigns as president of Liberty University.",
+"url": "http://www.bbc.co.uk/news/world-us-canada-53897647",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/15085/production/_114094168_062820137.jpg",
+"publishedAt": "2020-08-24T21:32:59Z",
+"content": "Image copyrightReutersImage caption\r\n Jerry Falwell Jr took a leave of absence from Liberty University after posting a photo of himself on Instagram with his trousers unzipped\r\nThe influential head o… [+654 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "National Guard deployed after US police shooting",
+"description": "Wisconsin Governor Tony Evers deploys troops after police shot a black man in the back on Sunday.",
+"url": "http://www.bbc.co.uk/news/world-us-canada-53897641",
+"urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p08pjk6y.jpg",
+"publishedAt": "2020-08-24T21:20:38Z",
+"content": "Media playback is unsupported on your device\r\nMedia captionUS police shooting of unarmed Jacob Blake sparked protests on Sunday\r\nThe governor of the US state of Wisconsin has deployed the National Gu… [+4684 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "The son who is Trumpier than Trump",
+"description": "A businessman and father of five, Donald Trump Jr is a prolific fundraiser on the campaign trail.",
+"url": "http://www.bbc.co.uk/news/world-us-canada-53884591",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/14919/production/_114094248_gettyimages-1161698552.jpg",
+"publishedAt": "2020-08-24T20:34:25Z",
+"content": "Image copyrightGetty Images\r\nOn the first night of the Republican National Convention, the president's eldest son, Donald Trump Jr, will take centre stage and command the nation's attention. \r\nNo one… [+5866 chars]"
+}
+]
+}
