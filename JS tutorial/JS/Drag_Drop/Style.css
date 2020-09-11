@@ -1,0 +1,85 @@
+/* 
+body{
+
+    background: darkslateblue;
+}
+
+.imgBox{
+
+    background-image: url("image.png");
+    position: relative;
+    top : 7px;
+    left: 5px;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
+
+.whiteBox{
+
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+    border: 3px solid black;
+
+}
+
+.hold{
+    border: red solid 4px ;
+}
+
+.hide{
+    display: none;
+} */
+
+/* .dashed{
+
+    background: rgb(214, 214, 214);
+    border-style: dashed;
+} */
+
+/*********************************************/
+
+body{
+
+    background-color: skyblue;
+}
+
+.whiteBox{
+
+    height: 155px;
+    width: 155px;
+    background-color: white;
+    margin: 10px;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+.imgBox{
+
+    background-image: url("image.png");
+    height: 145px;
+    width: 145px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+
+}
+
+.dashed{
+
+    border-style: dashed;
+    background-color: rgb(243, 236, 236);
+}
+
+.hold{
+
+    border: 3px solid red;
+}
+
+.hide{
+    display: none;
+}
