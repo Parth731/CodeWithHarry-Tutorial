@@ -16,7 +16,7 @@ document.getElementById(`heading`).addEventListener('click',function(e){
     variable = e.target.classList;
     variable = Array.from(e.target.classList);
     console.log(variable);
-
+    
     variable = e.target.id;
     variable = e.offsetX;
     variable = e.offsetY;

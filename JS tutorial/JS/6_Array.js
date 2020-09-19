@@ -7,21 +7,21 @@ const mixed = ["str",89,[3,5]];
 
 const arr = new Array(23,123,21,"orange");
 console.log(mark);
-// console.log(arr);
-// console.log(mixed);
-// console.log(fruits[1]);
+console.log(arr);
+console.log(mixed);
+console.log(fruits[1]);
 
-// console.log(arr.length);
-// console.log(Array.isArray("dfdf"));
-// console.log(Array.isArray(123));
+console.log(arr.length);
+console.log(Array.isArray("dfdf"));
+console.log(Array.isArray(123));
 
 arr[0] = "Parth";
 let arrelement = arr[0];
-// console.log("element :", arrelement );
-// console.log(arr);
+console.log("element :", arrelement );
+console.log(arr);
 
 let value = mark.indexOf(73);
-// console.log(value);
+console.log(value);
 
 // mutating or modifying arrays
 
@@ -34,8 +34,8 @@ console.log(mark);
 mark.shift();
 console.log(mark);
 
-// mark.splice(1,3) //1 parameter starting index 2nd parameter no of element delete 
-// console.log(mark)
+mark.splice(1,3) //1 parameter starting index 2nd parameter no of element delete 
+console.log(mark)
 
 mark.reverse();
 console.log(mark);

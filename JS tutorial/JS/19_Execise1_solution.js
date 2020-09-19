@@ -1,5 +1,5 @@
 
-console.log("This is Tutorial 20 Exercise Soluation")
+console.log("This is Tutorial 19 Exercise Soluation")
 
 let str = "python";
 let links = document.links;

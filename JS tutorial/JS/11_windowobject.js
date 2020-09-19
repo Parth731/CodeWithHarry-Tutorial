@@ -8,14 +8,14 @@ console.log("This is Tutorial 11 Window object")
 let a= window;
 console.log(a); //all function
 
-// window.alert("hello parth!")
-// alert("hello parth!")
+window.alert("hello parth!")
+alert("hello parth!")
 
-// a = prompt("This will destroy your computer");
-// console.log(a);
+a = prompt("This will destroy your computer");
+console.log(a);
 
-// a= confirm("Are you sure you want to delete this page?");
-// console.log(a);
+a= confirm("Are you sure you want to delete this page?");
+console.log(a);
 
 // a = window.document;
 a = document;

@@ -6,67 +6,67 @@ console.log("This is a tutorial 7 Array Iteration")
 //Array.forEach()
 var txt = "";
 var numbers = [45, 4, 9, 16, 25];
-numbers.forEach(myFunction);
+numbers.forEach(myFunction1);
 
-function myFunction(value, index, array) {
+function myFunction1(value, index, array) {
   txt = txt + value + " ";
    
 }
-// console.log(txt);
+console.log(txt);
 
 
 //Array.map()
 var numbers1 = [45, 4, 9, 16, 25];
-var numbers2 = numbers1.map(myFunction);
+var numbers2 = numbers1.map(myFunction2);
 
-function myFunction(value, index, array) {
+function myFunction2(value, index, array) {
   return value * 2;
 }
 
-// console.log(numbers2);
+console.log(numbers2);
 
 //Array.filter()
 var numbers = [45, 4, 9, 16, 25];
-var over18 = numbers.filter(myFunction);
+var over18 = numbers.filter(myFunction3);
 
-function myFunction(value, index, array) {
+function myFunction3(value, index, array) {
   return value > 18;
 }
-// console.log(over18);
+console.log(over18);
 
 //Array.reduce()
 var numbers1 = [45, 4, 9, 16, 25];
-var sum = numbers1.reduce(myFunction);
+var sum = numbers1.reduce(myFunction4);
 
-function myFunction(total, value, index, array) {
+function myFunction4(total, value, index, array) {
   return total + value;
 }
-// console.log(sum);
+console.log(sum);
 
 //Array.reduceRight()
 var numbers1 = [45, 4, 9, 16, 25];
-var sum = numbers1.reduceRight(myFunction);
+var sum = numbers1.reduceRight(myFunction5);
 
-function myFunction(total, value, index, array) {
+function myFunction5(total, value, index, array) {
   return total + value;
 }
-// console.log(sum);
+console.log(sum);
 
 //Array.every()
 var numbers = [45, 4, 9, 16, 25];
-var allOver18 = numbers.every(myFunction);
+var allOver18 = numbers.every(myFunction6);
 
-function myFunction(value, index, array) {
+function myFunction6(value, index, array) {
   return value > 18;
 }
-// console.log(allOver18);
+console.log(allOver18);
 
 
 //Array.some()
 var numbers = [45, 4, 9, 16, 25];
-var someOver18 = numbers.some(myFunction);
+var someOver18 = numbers.some(myFunction7);
 
-function myFunction(value, index, array) {
+function myFunction7(value, index, array) {
   return value > 18;
 }
 console.log(someOver18)
@@ -80,25 +80,18 @@ console.log(a)
 
 //Array.find()
 var numbers = [4, 9, 16, 25, 29];
-var first = numbers.find(myFunction);
+var first = numbers.find(myFunction8);
 
-function myFunction(value, index, array) {
+function myFunction8(value, index, array) {
   return value > 18;
 }
 console.log(first)
 
 //Array.findIndex()
 var numbers = [4, 9, 16, 25, 29];
-var first = numbers.findIndex(myFunction);
+var first = numbers.findIndex(myFunction9);
 
-function myFunction(value, index, array) {
+function myFunction9(value, index, array) {
   return value > 18;
 }
-console.log(first)
-
-
-
-
-
-
-
+console.log(first);

@@ -21,16 +21,16 @@ console.log(a);
 a = document.forms[0];
 console.log(a);
 
-Array.from(a).forEach(function(element){
-    console.log(element);
-})
+// Array.from(a).forEach(function(element){
+//     console.log(element);
+// })
 
 a = document.links;
 console.log(a);
 a = document.links[0];
 console.log(a);
-a = document.links[0].href;
-console.log(a);
+// a = document.links[0].href;
+// console.log(a);
 
 a = document.images;
 console.log(a); 
@@ -39,7 +39,7 @@ console.log(a);
 
 a = document.scripts;
 console.log(a); 
-a= document.scripts[1] ;
+a= document.scripts[0] ;
 console.log(a);
 
 
