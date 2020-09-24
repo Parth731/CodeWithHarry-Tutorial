@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Tutroial</title>
+
+    <style>
+        #panel,
+        #flip {
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: 2px solid #c3c3c3;
+        }
+
+        #panel {
+            padding: 50px;
+            display: none;
+        }
+
+        .important {
+            font-weight: bold;
+            font-size: xx-large;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        /* #div1 {
+            height: 140px;
+            width: 300px;
+            padding: 10px;
+            margin: 3px;
+            border: 1px solid blue;
+            background-color: lightblue;
+        } */
+
+        .ancestors {
+            display: block;
+            border: 2px solid lightgray;
+            color: lightgray;
+            padding: 5px;
+            margin: 15px;
+        }
+
+        .descendants {
+            display: block;
+            border: 2px solid lightgray;
+            color: lightgray;
+            padding: 5px;
+            margin: 15px;
+        }
+
+        .siblings {
+            display: block;
+            border: 2px solid lightgray;
+            color: lightgray;
+            padding: 5px;
+            margin: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 1. Selectors - Element Selector, ID Selector, Class Selector -->
+    <!-- <p>This is a paragraph</p>
+    <button id="btn-id">Button with ID</button>
+    <button class="btn-class">Button with Class</button> -->
+
+
+    <!-- 2. Events - click, dblclick, mouseenter, mouseleave -->
+    <!-- <p>If you click on me, I will disappear.</p>
+    <p id="p2">Click me away!</p>
+    <p>Click me too!</p>
+    Name: <input type="text" name="fullname"><br>
+    Email: <input type="text" name="email"> -->
+
+
+    <!--3. hide and show -->
+    <!-- <p>This is a Text</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Toggle</button>
+    <br><br> -->
+
+    <!-- 4. fading  -->
+    <!-- <button id="button">Button</button>
+    <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+    <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+    <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div> -->
+
+    <!-- 5. silde -->
+    <!-- <div id="flip">Click to slide down panel</div>
+    <div id="panel">Hello world!</div> -->
+
+
+    <!-- 6. animation -->
+    <!-- <button id="animation">Start Animation</button><br><br>
+    <div style="background:#98bf21;height:100px;width:100px;position:absolute;">Hello</div> -->
+
+
+    <!-- 7. stop animation -->
+    <!-- <button id="stop">Stop sliding</button>
+    <div id="flip">Click to slide down panel</div>
+    <div id="panel">Hello world!</div> -->
+
+    <!-- 8. callback and chaining function -->
+    <!-- <button>Hide</button>
+    <p>This is a paragraph with little content.</p>
+        
+    <p id="p1">jQuery is fun!!</p>
+    <button id="chaining">Click me</button> -->
+
+    <!-- 9. HTML Gets  -->
+    <!-- <p id="test">This is some <b>bold</b> text in a paragraph.</p>
+    <button id="btn1">Show Text</button>
+    <button id="btn2">Show HTML</button>
+
+    <p>Name: <input type="text" id="test2" value="Mickey Mouse"></p>
+    <button id="btn3">Show Value</button>
+
+    <p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>
+    <button id="btn4">Show href Value</button> -->
+
+
+    <!-- 10. HTML Sets -->
+    <!-- <p id="test1">This is a paragraph.</p>
+    <p id="test2">This is another paragraph.</p>
+
+    <p>Input field: <input type="text" id="test3" value="Mickey Mouse"></p>
+
+    <button id="btn1">Set Text</button>
+    <button id="btn2">Set HTML</button>
+    <button id="btn3">Set Value</button>
+
+
+    <p id="test4">This is a <b>bold</b> paragraph.</p>
+    <p id="test5">This is another <b>bold</b> paragraph.</p>
+
+    <button id="btn4">Show Old/New Text</button>
+    <button id="btn5">Show Old/New HTML</button>
+
+    <p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>
+    <button id="btn6">Change href Value</button> -->
+
+
+
+    <!-- 11. HTML Add Element -->
+    <!-- <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ol>
+
+    <button id="btn1">Append text</button>
+    <button id="btn2">Append list items</button>
+    <button id="btn3">Prepend text</button>
+    <button id="btn4">Prepend list items</button>
+    <button onclick="appendText()">Append text</button><br><br>
+
+    <img src="JS/w3jquery.gif" alt="jQuery" width="100" height="140"><br><br>
+
+    <button id="btn5">Insert before</button>
+    <button id="btn6">Insert after</button><br><br>
+
+    <img src="JS/w3jquery.gif" alt="jQuery" width="100" height="140"><br><br>
+
+    <button onclick="afterText()">Insert after</button> -->
+
+
+    <!-- 12. Remove Elements -->
+    <!-- <div id="div1" style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+
+        This is some text in the div.
+        <p>This is a paragraph in the div.</p>
+        <p>This is another paragraph in the div.</p>
+
+    </div>
+    <br>
+
+    <button id="btn1">Remove div element</button>
+
+    <p class="test">This is p element with class="test".</p>
+    <p class="test">This is p element with class="test".</p>
+    <p class="demo">This is p element with class="demo".</p>
+    <button id="btn2">Remove all p elements with class="test" and class="demo"</button> -->
+
+
+    <!-- 13. CSS Class and css -->
+    <!-- <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <div>This is some important text!</div><br>
+
+    <button id="btn1">Add classes</button>
+    <button id="btn2">Romove classes</button>
+    <button id="btn3">Toggle classes</button>
+
+    <button id="btn4">CSS classes</button> -->
+
+
+
+    <!-- 14. Dimensions -->
+    <!-- <div id="div1"></div>
+    <br>
+
+    <button id="btn1">Display dimensions of div1</button>
+    <button id="btn2">Display dimensions of document and window</button>
+    <button id="btn3">reSize</button> -->
+
+
+    <!-- 15. Traversing - Ancestors -->
+    <!-- <div class="ancestors">
+        <div style="width:500px;" class="ancestors">div (great-grandparent)
+            <ul class="ancestors">ul (grandparent)
+                <li class="ancestors">li (direct parent)
+                    <span class="ancestors">span</span>
+                </li>
+            </ul>
+        </div>
+
+        <div style="width:500px;" class="ancestors">div (grandparent)
+            <p class="ancestors">p (direct parent)
+                <span class="ancestors">span</span>
+            </p>
+        </div>
+    </div> -->
+
+
+    <!-- 16. Traversing - Descendants -->
+    <!-- <div class="descendants" style="width:500px;">div (current element)
+        <p class="descendants first">p (child)
+            <span class="descendants">span (grandchild)</span>
+        </p>
+        <p class="descendants second">p (child)
+            <span class="descendants">span (grandchild)</span>
+        </p>
+    </div> -->
+
+    <!-- 17. Traversing - Siblings -->
+    <!-- <div class="siblings">div (parent)
+        <p class="siblings">p</p>
+        <span class="siblings">span</span>
+        <h2 class="siblings">h2</h2>
+        <h3 class="siblings">h3</h3>
+        <h4 class="siblings">h4</h4>
+        <h5 class="siblings">h5</h5>
+        <h6 class="siblings">h6</h6>
+        <p class="siblings">p</p>
+    </div> -->
+
+    <!-- 18. Traversing - Filtering -->
+    <!-- <p>This is a paragraph.</p>
+
+    <div style="border: 1px solid black;">
+        <p>A paragraph in a div.</p>
+        <p>Another paragraph in a div.</p>
+    </div>
+    <br>
+
+    <div style="border: 1px solid black;">
+        <p>A paragraph in another div.</p>
+        <p>Another paragraph in another div.</p>
+    </div>
+    <br>
+
+    <div style="border: 1px solid black;">
+        <p>A paragraph in another div.</p>
+        <p>Another paragraph in another div.</p>
+    </div>
+
+    <p>My name is Donald.</p>
+    <p class="intro">I live in Duckburg.</p>
+    <p class="intro">I love Duckburg.</p>
+    <p>My best friend is Mickey.</p> -->
+
+
+
+    <!-- 19. AJAX Load -->
+    <!-- <div id="div1">
+        <h2>Let jQuery AJAX Change This Text</h2>
+    </div>
+
+    <button id="btn1">Get External Content</button> -->
+
+
+    <!-- 20. AJAX POST and GET -->
+    <button id="btn1">Send an HTTP GET request to a page and get the result back</button>
+
+
+
+
+    <!-- jquery using google CDN -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="JS/1_Hide_Show.js"></script> -->
+
+
+    <!-- jquery add offline -->
+    <!-- <script src="JS/JQuery.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- <script src="JS/1_Selector.js"></script> -->
+    <!-- <script src="JS/2_Events.js"></script> -->
+    <!-- <script src="JS/3_Hide_Show.js"></script> -->
+    <!-- <script src="JS/4_Fading.js"></s/cript> -->
+    <!-- <script src="JS/6_Animation.js"></script> -->
+    <!-- <script src="JS/7_Stop_Animation.js"></script> -->
+    <!-- <script src="JS/8_Callback_Chaining.js"></script> -->
+    <!-- <script src="JS/9_HTML_Get.js"></script> -->
+    <!-- <script src="JS/10_HTML_Set.js"></script> -->
+    <!-- <script src="JS/11_Add_Elements.js"></script> -->
+    <!-- <script src="JS/12_Remove_Elements.js"></script> -->
+    <!-- <script src="JS/13_CSS_Class.js"></script> -->
+    <!-- <script src="JS/14_Dimensions.js"></script> -->
+    <!-- <script src="JS/15_Traversing_Ancestors.js"></script> -->
+    <!-- <script src="JS/16_Traversing_Descendants.js"></script> -->
+    <!-- <script src="JS/17_Traversing_Siblings.js"></script> -->
+    <!-- <script src="JS/18_Traversing_Filtering.js"></script> -->
+    <!-- <script src="JS/19_AJAX_Load.js"></script> -->
+    <script src="JS/20_AJAX_GET_POST.js"></script>
+
+</html>

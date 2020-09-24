@@ -1,0 +1,74 @@
+
+
+<!--
+
+css selector are used to find the element whose property will be set.
+
+selector are used to target the html elements
+
+selector makes it easy for us to easily target single/multiple
+HTML element in markup
+
+p{color : red;}
+
+p->selector
+color->property
+blue-> value
+
+
+css element Selector
+css id selector
+css class selector
+The CSS Grouping selecor
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /* element selector */
+        p{
+            border: 2px solid violet;
+        }
+
+        /* id selector */
+        #redElement{
+            color: red;
+        }
+
+        /* class selector */
+        .firstpara{
+            color: black;
+            background-color: yellowgreen;
+        }
+
+        /* grouping selector */
+        footer, span{
+
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>CSS Selector</h1>
+    <p class="firstpara">This is a simple paragraph to demonstrate css Selector</p>
+    <p id="redElement">This is a another simple paragraph to demonstrate css Selector</p>
+
+    <div>
+        <p>This is yet another simple paragraph to demonstrate css Selector</p>
+
+        <p>This is yet another simple paragraph to demonstrate css Selector</p>
+
+        <span>This is a span</span>
+    </div>
+
+    <footer>This is a footer</footer>
+
+</body>
+</html>
