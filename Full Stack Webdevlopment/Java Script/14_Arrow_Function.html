@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrow Functions</title>
+</head>
+
+<body>
+    <div class="container">
+        This is arrow functions tutorial.
+    </div>
+    <script>
+
+        // function greet() {
+        //     console.log('Good morning');
+        // }
+
+        // Arrow function
+        // let greet =  ()=> {
+        //     console.log('Good morning');
+        // }
+
+        let greet = () => console.log('Good morning');
+
+        greet();
+
+        // let sum2 = (a, b)=>{
+        //     return a+b;
+        // };
+
+        // let sum2 = (a, b) => a + b;
+        let sum2 = (a, b) => { return a + b };
+
+        console.log(sum2(20, 29));
+
+        let half = a => a / 2;
+        console.log(half(67));
+
+        setTimeout(() => {
+            console.log("We are inside settimeout");
+        }, 3000);
+
+        let obj1 = {
+            greeting: "Good Morning",
+            names: ["Harry", "Rohan", "SkillF", "DjKhiladi"],
+            // speak() {
+            //     this.names.forEach(function (student) {
+            //         console.log(this.greeting + " Kukdoo Koo " + student);
+            //     });
+            // }
+
+            /*
+            undefined Kukdoo Koo Harry
+            undefined Kukdoo Koo Rohan
+            undefined Kukdoo Koo SkillF
+            undefined Kukdoo Koo DjKhiladi
+            */
+
+            speak() {
+                this.names.forEach((student) => {
+                    console.log(this.greeting + " Kukdoo Koo " + student);
+                });
+            }
+
+            /*
+            Good Morning Kukdoo Koo Harry
+            Good Morning Kukdoo Koo Rohan
+            Good Morning Kukdoo Koo SkillF
+            Good Morning Kukdoo Koo DjKhiladi
+            */
+        }
+        obj1.speak();
+    </script>
+</body>
+
+</html>

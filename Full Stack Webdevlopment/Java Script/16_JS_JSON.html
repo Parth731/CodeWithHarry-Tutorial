@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS JSON Tutorial</title>
+</head>
+<body>
+    
+    <div class="container">This is my container</div>
+
+
+    <script>
+
+        let jsonObj = {
+            name : "Harry",
+            channel : "CWH",
+            friend : "Rohan Das",
+            food : "Bhindi"     // #bhindiloversquad 
+        }
+
+        console.log(jsonObj);
+
+        let myjsonstr = JSON.stringify(jsonObj);    //here JSON.stringify return string
+        console.log(myjsonstr);
+
+        localStorage.setItem("data",myjsonstr);
+
+
+        //////////////////////////
+        let get = localStorage.getItem('data');
+        
+        // get = JSON.parse(get);
+        // console.log(get);
+        
+        get =  get.replace("Harry","Parth");
+        
+        localStorage.setItem("data",JSON.stringify(get));
+        console.log(get);
+
+
+        // how to again converted object
+        get = JSON.parse(get);  //here return object
+        console.log(get);
+
+
+        
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

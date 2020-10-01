@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Interation using alert, confirm and prompt</title>
+</head>
+<body>
+
+    <div class="container">
+        This is a JS
+    </div>
+
+    <script>
+        
+        // Alert in in-browser JavaScript(bodal) Doesn't return anything 
+        // alert("This is a Message");
+        // let a = alert("This is a Message");
+        // console.log(a);
+
+        // prompt in js
+        // let name = prompt("What is a your name?","Guest");
+        // console.log(name);
+
+        // confirm in js
+        let deletePost = confirm("do you really want to delete this post?");
+        // console.log(deletePost);
+
+        if(deletePost){
+
+            // code to delete the post
+            console.log("Your post has been deleted successfully");
+        }
+        else{
+
+            // code to cancel deletion of the post
+            console.log("Your post has not been deleted");
+        }
+
+
+        // quiz
+        let age = prompt("What is your age");
+
+        if(age>=18){
+            console.log("allowed inside the club");
+        }
+        else{
+            alert("You are not 18, you are not allowed inside the club");
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

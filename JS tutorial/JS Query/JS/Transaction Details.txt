@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://portal.hdfc.com/post-sanction/print-transaction-details -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transaction Details</title>
+    <link rel="shortcut icon" href="https://portal.hdfc.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./Transaction Details_files/app.css">
+</head>
+
+<body style="background: #fff;">
+
+<nav class="navbar navbar-expand be-top-header" style="z-index: 990 !important">
+    <div class="container-fluid">
+        <div class="be-navbar-header"><a class="navbar-brand"></a> </div>
+    </div>
+</nav>
+
+<div id="main-content" class="container">
+
+    <div id="summary-tab">
+        <div class="row">
+            <div class="col-lg-12" style="margin-top: 20px">
+                <h4 style="text-align: center;padding-bottom: 11px;">Transaction Summary <span style="font-size: 15px;">(2020 - 21)</span></h4>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th style="text-align: center;">S.No.</th>
+                        <th style="text-align: center;">Type </th>
+                        <th style="text-align: center;">Opening Balance<span class="mdi mdi-currency-inr"></span></th>
+                        <th style="text-align: center;">Receivable<span class="mdi mdi-currency-inr"></span></th>
+                        <th style="text-align: center;">Received<span class="mdi mdi-currency-inr"></span></th>
+                        <th style="text-align: center;">Outstanding<span class="mdi mdi-currency-inr"></span></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                    <tr>
+                                <td style="text-align: center;">1</td>
+                                <td style="text-align: left;">EMI</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">21,040</td>
+                                <td style="text-align: right;">25,226</td>
+                                <td style="text-align: right;">-4,186</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">2</td>
+                                <td style="text-align: left;">Additional Interest</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">254</td>
+                                <td style="text-align: right;">318</td>
+                                <td style="text-align: right;">0</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">3</td>
+                                <td style="text-align: left;">Incidental Charges</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">62</td>
+                                <td style="text-align: right;">62</td>
+                                <td style="text-align: right;">0</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">4</td>
+                                <td style="text-align: left;">Pre Payment</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">5</td>
+                                <td style="text-align: left;">Interest on Pre Payment</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">6</td>
+                                <td style="text-align: left;">Principal Adjustments</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">7</td>
+                                <td style="text-align: left;">Interest Adjustments</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">8</td>
+                                <td style="text-align: left;">Pre-EMI</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">0</td>
+                                <td style="text-align: right;">-1</td>
+                                <td style="text-align: right;">0</td>
+                            </tr>
+                                            </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="history-tab">
+        <div class="row">
+            <div class="col-lg-12">
+                <h4 style="text-align: center;padding-bottom: 11px;margin-top: 60px;">Transaction History <span style="font-size: 15px;">(2020 - 21)</span> </h4>
+                <table class="table table-bordered">
+                    <thead>
+                   
+                        <tr>
+                            <th>Date</th>
+                            <th>Payment Mode</th>
+                            <th>Receipt No</th>
+                            <th>Transaction Amount <span class="mdi mdi-currency-inr"></span></th>
+                            <th>Payment Type</th>
+                            <th>Effective Date</th>
+                        </tr>
+                   
+                    </thead>
+                    <tbody>
+                                                    <tr>
+                                <td style="text-align: center;">16-APR-20</td>
+                                <td style="text-align: center;">ACH-Electronic Clearing</td>
+                                <td style="text-align: center;">7218599879</td>
+                                <td style="text-align: center;">4,208</td>
+                                <td style="text-align: center;">E M I</td>
+                                <td style="text-align: center;">15-APR-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">15-MAY-20</td>
+                                <td style="text-align: center;">ACH-Electronic Clearing</td>
+                                <td style="text-align: center;">7998826288</td>
+                                <td style="text-align: center;">4,208</td>
+                                <td style="text-align: center;">E M I</td>
+                                <td style="text-align: center;">15-MAY-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">15-MAY-20</td>
+                                <td style="text-align: center;">Returned Unpaid</td>
+                                <td style="text-align: center;">7998826288</td>
+                                <td style="text-align: center;">-4,208</td>
+                                <td style="text-align: center;">E M I</td>
+                                <td style="text-align: center;">15-MAY-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">15-JUN-20</td>
+                                <td style="text-align: center;">ACH-Electronic Clearing</td>
+                                <td style="text-align: center;">8583299752</td>
+                                <td style="text-align: center;">4,208</td>
+                                <td style="text-align: center;">E M I</td>
+                                <td style="text-align: center;">15-JUN-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">16-JUN-20</td>
+                                <td style="text-align: center;">Returned Unpaid</td>
+                                <td style="text-align: center;">8583299752</td>
+                                <td style="text-align: center;">-4,208</td>
+                                <td style="text-align: center;">E M I</td>
+                                <td style="text-align: center;">15-JUN-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">26-JUN-20</td>
+                                <td style="text-align: center;">Voucher</td>
+                                <td style="text-align: center;">10072</td>
+                                <td style="text-align: center;">1</td>
+                                <td style="text-align: center;">E M I</td>
+                                <td style="text-align: center;">19-JUN-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">26-JUN-20</td>
+                                <td style="text-align: center;">Voucher</td>
+                                <td style="text-align: center;">10072</td>
+                                <td style="text-align: center;">-1</td>
+                                <td style="text-align: center;">PRE EMI</td>
+                                <td style="text-align: center;">19-JUN-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">15-JUL-20</td>
+                                <td style="text-align: center;">ACH-Electronic Clearing</td>
+                                <td style="text-align: center;">9272293871</td>
+                                <td style="text-align: center;">4,208</td>
+                                <td style="text-align: center;">E M I</td>
+                                <td style="text-align: center;">15-JUL-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">17-AUG-20</td>
+                                <td style="text-align: center;">ACH-Electronic Clearing</td>
+                                <td style="text-align: center;">86347747</td>
+                                <td style="text-align: center;">4,208</td>
+                                <td style="text-align: center;">E M I</td>
+                                <td style="text-align: center;">15-AUG-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">14-SEP-20</td>
+                                <td style="text-align: center;">Cheque</td>
+                                <td style="text-align: center;">523517</td>
+                                <td style="text-align: center;">8,393</td>
+                                <td style="text-align: center;">E M I</td>
+                                <td style="text-align: center;">14-SEP-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">14-SEP-20</td>
+                                <td style="text-align: center;">Cheque</td>
+                                <td style="text-align: center;">523517</td>
+                                <td style="text-align: center;">62</td>
+                                <td style="text-align: center;">INCIDENTAL CHARGES</td>
+                                <td style="text-align: center;">14-SEP-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">14-SEP-20</td>
+                                <td style="text-align: center;">Cheque</td>
+                                <td style="text-align: center;">523517</td>
+                                <td style="text-align: center;">318</td>
+                                <td style="text-align: center;">ADDITIONAL INTEREST</td>
+                                <td style="text-align: center;">14-SEP-20</td>
+                            </tr>
+                                                    <tr>
+                                <td style="text-align: center;">15-SEP-20</td>
+                                <td style="text-align: center;">ACH-Electronic Clearing</td>
+                                <td style="text-align: center;">672922358</td>
+                                <td style="text-align: center;">4,208</td>
+                                <td style="text-align: center;">E M I</td>
+                                <td style="text-align: center;">15-SEP-20</td>
+                            </tr>
+                                            </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<script>    
+    /*window.print();
+    setTimeout(window.close, 0);*/
+</script>
+
+</body></html>

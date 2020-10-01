@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event</title>
+</head>
+<style>
+    #btn {
+        padding: 10px 14px;
+        background-color: rgb(111, 80, 170);
+        border: 2px solid black;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+    <!-- 
+        brower events 
+        -click
+        -contextmenu
+        -mouseover/mouseout
+        -mousedown/mouseup
+        -mousemove
+        -submit
+        -focus
+        -DOMContentLoaded
+        -transitiond
+    
+    -->
+
+    <div class="container">
+        <h1>This is Heading</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, rerum provident. Eaque eligendi
+            aspernatur rem omnis tenetur voluptatum culpa modi labore placeat fugit vel neque, ducimus assumenda
+            voluptatem reiciendis laborum? Deleniti, aspernatur facilis!</p>
+    </div>
+    <button id="btn" onclick="togglehide()">Show/hide</button>
+
+
+
+    <script>
+
+        // we do not getelement but para id is work beacuse gobally one para element is their  
+        // let para = document.getElementById('para');
+        // let para = 2; //para is error para is overwrite
+
+        para.addEventListener('mouseover', function () {
+
+            console.log('mouse inside');
+
+        });
+
+        para.addEventListener('mouseout', function () {
+
+            console.log('mouse outside');
+
+        });
+
+
+
+        function togglehide() {
+
+            // let btn = document.getElementById('btn');
+
+            if (para.style.display != 'none') {
+                para.style.display = "none";
+            }
+            else {
+                para.style.display = "block";
+
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

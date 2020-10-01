@@ -1,0 +1,80 @@
+<!-- 
+    what is a reponsive design?
+
+    -endless new resolution and devices are difficult to 
+    support separately for web developer
+
+    -reposive design is way for web developer to make his website adpt to all the devices and resolutions 
+
+    -responsive design is necessity and not a luxury anymore
+
+    * verious ways to achieve reposive design 
+
+    -setting up the viewpoint
+    -use max-width/max-height
+    -using css media Queries
+    -using rem/vh/vw units over pixels
+
+
+
+
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Units</title>
+    <style>
+        html {
+            font-size: 25px;
+        }
+
+        .container {
+
+            width: 400px;
+            /* height: 344px; */
+            height: 100vh;
+            width: 100vw;
+            font-size: 10px;
+            border: 2px solid red;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #first {
+
+            /*font-size: 3em;*/
+            /*perent font size container 10* class="first" font size 3 = total 30px */
+
+            /*padding: 3em;*/
+            /*class="first" font size 3 * perent font size container 10 * padding 3 = 90px  */
+
+        }
+
+        #second {
+
+            /* 25*3 = 75px */
+            /* font-size: 3rem; */
+
+            /* 25*3 = 75px */
+            /* padding: 3rem;   */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="first">This is First heading</h1>
+        <h1 id="second">This is Second heading</h1>
+        <h1 id="third">This is Third heading</h1>
+    </div>
+</body>
+
+</html>

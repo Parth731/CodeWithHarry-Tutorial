@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS String and String Method</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div id="content"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad possimus distinctio neque incidunt! Iure adipisci
+            optio, quidem maxime in perferendis vel distinctio sint deserunt ipsam porro obcaecati accusantium
+            repellendus esse vitae placeat reprehenderit fugit neque, dolores eaque veritatis. Tenetur eligendi
+            consequatur obcaecati mollitia neque quae minima aspernatur consequuntur, numquam at ad sit molestias
+            nesciunt autem voluptate, molestiae eveniet deleniti odio ullam praesentium? Exercitationem unde vero
+            obcaecati quidem.</p>
+    </div>
+
+
+
+
+
+    <script>
+
+        //  var string  = "this";
+        var string = "'this' is a cow";
+        var name = 'Parth'
+        var channel = "codewithParth"
+        var message = 'Parth is good boy'
+        var temp = `${name} is a nice person and he has channel called ${channel}`;
+        // console.log(string + name + message);
+        console.log(temp);
+        var len = name.length;
+        console.log(`length of name is ${len}`);
+
+        // console.log("hello world \nHarry\tand");
+        console.log("hello world \\nHarry\tand\bParth\\");
+
+        document.getElementById('content').innerHTML = `<h3>This is an h3 Heading</h3>`
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+    <style>
+        .container {
+            display: flex;
+
+        }
+
+        .card {
+            padding: 23px 12px;
+            border: 2px solid red;
+            margin: 23px 12px;
+            background-color: burlywood;
+
+            /* box shadow: right bottom : offset x offset y color */
+            /* box-shadow: 10px 13px green; */
+
+            /* box shadow top left */
+            /* box-shadow: -10px -13px green; */
+
+            /* blur radius : offset x offset y blur-radius color */
+            /* box-shadow: 7px 5px 10px green; */
+
+            /* blur radius negative*/
+            /* box-shadow: -7px -5px 10px green; */
+
+            /* spare redius : offset x offset y blur-radius color spare redius */
+            /* box-shadow: -7px -5px 10px 14px green; */
+            /* box-shadow: -7px -5px 10px 14px rgba(71,172,172,0.5); */
+
+
+
+            /* box shadow inside box */
+            /* box-shadow: inset 3px 5px green; *//* top left*/
+
+            /* top left bottom */
+            /* box-shadow: inset 3px 5px green, 4px 6px red; */
+
+
+
+        }
+
+        .card h2{
+            /* text-shadow: 3px 4px red; */
+            /* under */
+            /* text-shadow: 3px 4px 2px white; */
+            /* upper */
+            text-shadow: -3px -4px 2px white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is c++ course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus officia deserunt modi. Expedita itaque fugiat facilis qui aliquam libero deleniti, corrupti laboriosam facere vero! Omnis ipsam tempora exercitationem reiciendis beatae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, voluptatibus tenetur, corrupti at
+                labore, distinctio nobis minima est odit accusantium ducimus adipisci repudiandae corporis voluptatem
+                maxime asperiores accusamus sapiente itaque quisquam sed. Minus neque eos culpa non explicabo eveniet
+                assumenda!</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is HTML course</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, voluptatibus tenetur, corrupti at
+                labore, distinctio nobis minima est odit accusantium ducimus adipisci repudiandae corporis voluptatem
+                maxime asperiores accusamus sapiente itaque quisquam sed. Minus neque eos culpa non explicabo eveniet
+                assumenda!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>This is CSS course</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, voluptatibus tenetur, corrupti at
+                labore, distinctio nobis minima est odit accusantium ducimus adipisci repudiandae corporis voluptatem
+                maxime asperiores accusamus sapiente itaque quisquam sed. Minus neque eos culpa non explicabo eveniet
+                assumenda!</p>
+        </div>
+    </div>
+</body>
+
+</html>

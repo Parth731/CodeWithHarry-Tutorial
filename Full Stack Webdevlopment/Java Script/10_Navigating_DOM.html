@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulate and Navigation DOM</title>
+</head>
+<body>
+    
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>More About Us</li>
+            <li>Content Us</li>
+        </ul>
+    </div>
+
+    <div class="container">Another Container</div>
+
+
+
+    <script>
+        
+
+        // get element using id
+        let main = document.getElementById('main');
+        console.log(main);
+
+        let nav = document.getElementById('nav');
+        console.log(nav.innerHTML);
+        // nav.innerHTML = "<li>Dynamic element</li>";
+
+
+        // get element using class
+        let container = document.getElementsByClassName('container');
+        console.log(container);
+        console.log(container[0]);
+
+        // queryselector
+        // let sel = document.querySelector('.container');
+        // let sel = document.querySelector('#nav>li');
+
+        // queryselectorAll
+        let sel = document.querySelectorAll('#nav>li');
+        console.log("selector return ",sel);
+        sel[0].innerHTML = "inseted2"
+        console.log("selector return ",sel[0]);
+        
+
+
+
+
+
+    </script>
+</body>
+</html>

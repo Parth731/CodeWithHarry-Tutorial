@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array and Object</title>
+</head>
+<body>
+
+    <div class="container">simple s1 html</div>
+
+    <script>
+
+        // value 1.primative and 2.refreance
+        // primative
+        let myvar = 34;
+        let myvar2 = "String";
+        let myvar3 = true;
+        let myvar4 = null;
+        let myvar5 = undefined;
+
+        // refreance
+        // object
+        let employee = {
+            name:"Harry",
+            salary : 10,
+            channel1 : "ProgramingWithHarry",
+            "channel 2" : "CodeWithHarry"
+        };
+
+        console.log(employee);
+        console.log(employee.channel1);
+        console.log(employee['channel1']);
+        console.log(employee['channel 2']);
+
+        // Array
+        // let names = [1,2,4,"Harry",undefined];
+        // console.log(names);
+        // console.log(names[3]);
+
+        //DOM : koibhi HTML iscalled document object model 
+
+        // array intization with new keyword is called array object
+        let names = new Array(41,2,4,"Harry",undefined);
+        console.log(names);
+        console.log(names[3]);
+        console.log(names.length);
+        console.log(names.sort());
+
+
+        // adding and removing of array element
+        names.push("this is a push");
+        console.log(names);
+        names.pop()
+        console.log(names);
+
+        
+        let na = new Array(23); //empty * 23 : 23 empty space
+        na.push("this is a push");
+        console.log(na);
+
+
+
+
+
+
+    </script>
+</body>
+</html>
