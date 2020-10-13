@@ -1,0 +1,37 @@
+''
+create a library class
+
+    1. diplay book
+    2. addbook
+    3. leadbook -> (who own the book if not present)
+    4. returnbook
+
+    harrylibrary(list of books, library_name)
+
+    dictionary  key-> books-nameofperson
+
+create main function and run an infinite while loop asking user for their
+input
+
+
+'''
+
+enumerate() works in Python?
+
+grocery = ['bread', 'milk', 'butter']
+enumerateGrocery = enumerate(grocery)
+
+print(type(enumerateGrocery))
+
+# converting to list
+print(list(enumerateGrocery))
+
+# changing the default counter
+enumerateGrocery = enumerate(grocery, 10)
+print(list(enumerateGrocery))
+
+Output
+
+<class 'enumerate'>
+[(0, 'bread'), (1, 'milk'), (2, 'butter')]
+[(10, 'bread'), (11, 'milk'), (12, 'butter')]
