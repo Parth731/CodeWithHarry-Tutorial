@@ -84,5 +84,3 @@ try {
     console.log(error);
     console.error();
 }
-
-console.log("error");
