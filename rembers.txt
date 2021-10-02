@@ -1,10 +1,10 @@
 ''
-create a library class
+Create a library class
 
-    1. diplay book
-    2. addbook
-    3. leadbook -> (who own the book if not present)
-    4. returnbook
+    1. Diplay book
+    2. Addbook
+    3. Leadbook -> (who own the book if not present)
+    4. Returnbook
 
     harrylibrary(list of books, library_name)
 
