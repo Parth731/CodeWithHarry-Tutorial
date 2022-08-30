@@ -1,0 +1,7 @@
+
+
+socket webserver is two way communction one port 
+ws and wws secuir connection hota hai.
+Socket.IO is a library that enables real-time, bidirectional and event-based communication between the browser and the server. It consists of:
+
+client request to the server (www.google.com request to google server) here only server listening and client request but here socket i/o  server and client both listening and requesting (vicevera) 

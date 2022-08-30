@@ -1,4 +1,3 @@
-
 console.log("This is tut 31 FS6 Class in heritance");
 
 // class is template
@@ -30,7 +29,7 @@ class Employee {
 
 class Programer extends Employee {
 
-    constructor(givenname, givenexprience, givendivision, language,github) {
+    constructor(givenname, givenexprience, givendivision, language, github) {
 
         super(givenname, givenexprience, givendivision);
         this.language = language;
@@ -38,35 +37,33 @@ class Programer extends Employee {
     }
 
     // add in prototype 
-    favoriteLanguage(){
-        if(this.language == "python"){
+    favoriteLanguage() {
+        if (this.language == "python") {
             return "python";
-        }
-        else{
+        } else {
             return "Javascript";
         }
     }
 
-    static multiply(a,b){
-        return a*b;
+    static multiply(a, b) {
+        return a * b;
     }
 
 }
 
 // class 
 
-// let parth = new Employee("parth", 4, "Division");
-// console.log(parth);
-// console.log(parth.slogan());
-// console.log(parth.joiningYear());
+let parth = new Employee("parth", 4, "Division");
+console.log(parth);
+console.log(parth.slogan());
+console.log(parth.joiningYear());
 
 // you can directly use static method
-//console.log(Employee.add(30, 40.5));
+console.log(Employee.add(30, 40.5));
 
 //inhritance
-let rohan = new Programer("Rohan",3,"Lays","python","Rohan420");
+let rohan = new Programer("Rohan", 3, "Lays", "python", "Rohan420");
 console.log(rohan);
 console.log(rohan.favoriteLanguage());
-console.log(Programer.multiply(6,7));
-console.log(Programer.add(10,20));
-
+console.log(Programer.multiply(6, 7));
+console.log(Programer.add(10, 20));
